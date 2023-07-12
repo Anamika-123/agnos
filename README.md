@@ -1,11 +1,23 @@
 # README
 
-Rails version should be `7.0.1`
+Rails version should be `7.0.6`
 
 Ruby version should be `3.0.1`
 
 ## Database Specifications
 Use PostgreSQL for database
+
+## Project Setup
+
+rvm use `ruby use 3.0.1` or `rbenv local 3.0.1`
+
+`bundle install`
+
+`rake db:reset`
+
+`rails s`
+
+
 
 
 ## User endpoints
